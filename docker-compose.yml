@@ -5,6 +5,7 @@ version: '3'
 services:
   exercises:
     build: .
+    image: hexletbasics/exercises-racket
     volumes:
       - .:/exercises-racket
     command: make lint test

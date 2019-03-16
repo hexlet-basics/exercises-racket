@@ -1,2 +1,2 @@
 test:
-	@ racket test.rkt
+	@ raco test test.rkt
