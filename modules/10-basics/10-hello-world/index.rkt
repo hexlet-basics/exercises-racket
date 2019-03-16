@@ -1,4 +1,4 @@
-#lang racket/base
+#lang racket
 
 #| BEGIN |#
 (display "Hello, World!")
