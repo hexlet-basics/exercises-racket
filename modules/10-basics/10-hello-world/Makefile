@@ -1,0 +1,2 @@
+test:
+	@ racket test.rkt
