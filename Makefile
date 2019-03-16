@@ -1,9 +1,6 @@
 compose: compose-build
 	docker-compose up
 
-gcloud-builds-submit:
-	gcloud builds submit --config cloudbuild.yaml .
-
 compose-test:
 	docker-compose -f docker-compose.test.yml run sut
 

@@ -8,4 +8,4 @@
 
 (let ([out (with-output-to-string (lambda () (system "racket index.rkt")))])
   (display out)
-  (check-equal? out "hello, world!"))
+  (check-equal? out "Hello, World!"))

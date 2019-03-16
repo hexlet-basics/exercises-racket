@@ -1,3 +1,5 @@
 #lang racket
 
-(display "hello, world!")
+#| BEGIN |#
+(display "Hello, World!")
+#| END |#
