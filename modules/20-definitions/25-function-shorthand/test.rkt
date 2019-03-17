@@ -9,7 +9,6 @@
 (require "index.rkt")
 
 (test-begin
-  (check-equal? 27 (cube 3))
-  (check-equal? 8 (cube 2))
-  (check-equal? 1 (cube 1))
+  (check-equal? 13 (sum-of-squares 2 3))
+  (check-equal? 61 (sum-of-squares 6 5))
   )

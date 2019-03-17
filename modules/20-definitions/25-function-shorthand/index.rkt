@@ -3,5 +3,5 @@
 (provide (all-defined-out))
 
 #| BEGIN |#
-(define cube (lambda (x) (* x x x)))
+(define (sum-of-squares x y) (+ (* x x) (* y y)))
 #| END |#
