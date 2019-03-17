@@ -22,7 +22,7 @@ theory: |
 
   ```scheme
   (define dangerous-year 1984)
-  (display dangerous-year) ; => "hexlet.io"
+  (display dangerous-year) ; => 1984
   ```
 
   Значением переменной может быть не только значение, но и любое выражение:
