@@ -6,9 +6,10 @@
                   check-equal?
                   test-begin
                   ))
+(require "index.rkt")
 
 (test-begin
-  (let ([out (with-output-to-string (lambda () (system "racket index.rkt")))])
-    (display out)
-    (display "\n\n\n")
-    (check-equal? out "100")))
+  (check-equal? 27 (cube 3))
+  (check-equal? 8 (cube 2))
+  (check-equal? 1 (cube 1))
+  )
