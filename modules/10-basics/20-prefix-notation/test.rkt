@@ -4,8 +4,11 @@
                   system))
 (require (only-in rackunit
                   check-equal?
+                  test-begin
                   ))
 
-(let ([out (with-output-to-string (lambda () (system "racket index.rkt")))])
-  (display out)
-  (check-equal? out "-120"))
+(test-begin
+  (let ([out (with-output-to-string (lambda () (system "racket index.rkt")))])
+    (display out)
+    (display "\n\n\n")
+    (check-equal? out "-120")))
