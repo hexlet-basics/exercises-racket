@@ -1,5 +1,5 @@
 #lang racket
 
 #| BEGIN |#
-(display (+ 5 10))
+(display "winter is coming!")
 #| END |#
