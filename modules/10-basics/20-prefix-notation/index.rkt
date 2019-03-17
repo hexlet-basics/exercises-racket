@@ -1,5 +1,5 @@
 #lang racket
 
 #| BEGIN |#
-(display (+ 5 10))
+(display (- 10 100 12 18))
 #| END |#
