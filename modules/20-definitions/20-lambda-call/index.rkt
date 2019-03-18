@@ -1,4 +1,4 @@
-#lang racket
+#lang racket/base
 
 #| BEGIN |#
 (define result ((lambda (num1 num2) (/ (+ num1 num2) 2))
