@@ -9,7 +9,7 @@ theory: |
 
   ```scheme
   ; форма
-  (display "i am from form")
+  (displayln "i am from form")
   ; форма
   (+ 1 2)
   ; и это формы
