@@ -1,8 +1,4 @@
-#lang racket/base
-
-#| BEGIN |#
-(display (+ 4
+(displayln (+ 4
             (- 2
                (* 3 5)
                (/ 8 7))))
-#| END |#

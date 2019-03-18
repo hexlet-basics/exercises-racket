@@ -1,5 +1,1 @@
-#lang racket/base
-
-#| BEGIN |#
-(display "winter is coming!")
-#| END |#
+(displayln "winter is coming!")

@@ -1,5 +1,2 @@
-#lang racket/base
+(displayln (- 128 37))
 
-#| BEGIN |#
-(display (- 128 37))
-#| END |#

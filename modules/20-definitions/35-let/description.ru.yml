@@ -8,7 +8,11 @@ theory: |
   ```scheme
   (define (f)
     (define text "lorem")
-    (display text))
+    (displayln text))
+
+  (f) ; => "lorem"
+  ; у define локальная область видимости
+  (displayln text) ; error
   ```
 
   Но с ним связано несколько тонких моментов:
