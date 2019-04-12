@@ -2,4 +2,4 @@
 
 (require "../../../src/tests.rkt")
 
-#| (assert-output "100") |#
+(assert-output "46")

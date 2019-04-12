@@ -1,0 +1,46 @@
+---
+
+name: When и Unless
+theory: |
+
+  Обычного `if` без `else` в Racket нет, но есть две специальные формы: `when` и `unless`, предназначенные для этой цели.
+
+  ### When
+
+  > (when test-expr body ...+)
+
+  Если результат `test-expr` истина, то вычисляется тело.
+
+  ```scheme
+  (when (positive? -5)
+    (display "hi"))
+
+  (when (positive? 5)
+    (display "hi")
+    (display " there"))
+  ```
+
+  ### Unless
+
+  > Тоже самое что и (when (not test-expr) body ...+).
+
+  `unless` работает наоборот. Тело вычисляется в том случае, если `test-expr` - ложь. Unless хоть и бывает удобен, но резко становится не читаемым когда в `test-expr` появляются составные условия.
+
+  ```scheme
+  (unless (positive? 5)
+    (display "hi"))
+  (unless (positive? -5)
+    (display "hi")
+    (display " there"))
+  ```
+
+instructions: |
+
+  Реализуйте функцию `say-boom`, которая возвращает строку _Boom!_ если ее вызвали с параметром `"go"`
+
+  ```scheme
+  (say-boom "hey")
+  (say-boom "go") ; "Boom!"
+  ``
+
+tips: []
