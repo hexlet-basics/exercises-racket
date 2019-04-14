@@ -34,6 +34,6 @@ instructions: |
   (sentence-type "Hello, world!") ; "common"
   ``
 
-  Для перевода строки в верхней регистр, используйте функцию `string-upcase`.
+  Для перевода строки в верхний регистр, используйте функцию `string-upcase`.
 
 tips: []
