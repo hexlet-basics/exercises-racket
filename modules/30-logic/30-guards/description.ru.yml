@@ -41,6 +41,6 @@ instructions: |
   ```scheme
   (say-boom "hey")
   (say-boom "go") ; "Boom!"
-  ``
+  ```
 
 tips: []

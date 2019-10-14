@@ -32,7 +32,7 @@ instructions: |
   ```scheme
   (sentence-type "HOW ARE YOU?") ; "cry"
   (sentence-type "Hello, world!") ; "common"
-  ``
+  ```
 
   Для перевода строки в верхний регистр, используйте функцию `string-upcase`.
 
