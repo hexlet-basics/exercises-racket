@@ -1,4 +1,5 @@
-compose: compose-build
+compose-setup: compose-build
+compose:
 	docker-compose up
 
 compose-test:
