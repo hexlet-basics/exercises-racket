@@ -1,3 +1,4 @@
-; я комментарий
-(displayln "Hello, World!")
+#lang racket
 
+;; я комментарий
+(displayln "Hello, World!")

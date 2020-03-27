@@ -15,7 +15,7 @@ RUN apt-get install -yqq software-properties-common
 RUN add-apt-repository ppa:plt/racket
 RUN apt-get install -yqq racket
 RUN raco pkg install --scope installation rackunit
-RUN raco pkg install review
+RUN raco pkg install --scope installation https://github.com/astynax/racket-review.git
 
 WORKDIR /exercises-racket
 COPY . .

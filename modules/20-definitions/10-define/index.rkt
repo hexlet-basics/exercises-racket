@@ -1,3 +1,5 @@
-(define members-count 100)
-(displayln members-count)
+#lang racket
 
+(define members-count 100)
+
+(displayln members-count)

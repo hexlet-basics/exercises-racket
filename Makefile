@@ -25,7 +25,7 @@ description-lint:
 	yamllint modules
 
 code-lint:
-	@(for f in $$(find modules -name '*.rkt'); do raco review $$f; done)
+	@(for f in $$(find modules -name '*.rkt'); do raco review $$f || exit 1; done)
 
 compose-test:
 	docker-compose run exercises make test

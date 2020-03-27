@@ -1,2 +1,3 @@
-(displayln (- 10 100 12 18))
+#lang racket
 
+(displayln (- 10 100 12 18))
