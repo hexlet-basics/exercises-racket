@@ -1,4 +1,5 @@
 #lang racket
 
-;; я комментарий
+#| BEGIN |#
 (displayln "Hello, World!")
+#| END |#
