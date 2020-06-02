@@ -1,4 +1,4 @@
-FROM docker.pkg.github.com/melodyn/hexlet-basics-base-image/image:base
+FROM docker.pkg.github.com/melodyn/base-image/image:base
 
 RUN apt-get install -yqq software-properties-common
 RUN add-apt-repository ppa:plt/racket
@@ -10,4 +10,6 @@ RUN raco pkg install \
     review
 
 WORKDIR /exercises-racket
+
+COPY --from=docker.pkg.github.com/melodyn/base-image/image:base /tmp/basics/common/* ./
 COPY . .
