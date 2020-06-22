@@ -1,4 +1,4 @@
-FROM docker.pkg.github.com/hexletbasics/base-image/image:base
+FROM hexletbasics/base-image/image:latest
 
 RUN add-apt-repository ppa:plt/racket
 RUN apt-get install -yqq racket
@@ -10,5 +10,5 @@ RUN raco pkg install \
 
 WORKDIR /exercises-racket
 
-COPY --from=docker.pkg.github.com/hexletbasics/base-image/image:base /tmp/basics/common/* ./
+COPY --from=hexletbasics/base-image/image:latest /tmp/basics/common/* ./
 COPY . .
