@@ -10,5 +10,4 @@ RUN raco pkg install \
 
 WORKDIR /exercises-racket
 
-COPY --from=hexletbasics/base-image:latest /tmp/basics/common/* ./
 COPY . .
