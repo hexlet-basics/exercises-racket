@@ -1,4 +1,4 @@
-FROM hexletbasics/base-image:latest
+FROM hexletbasics/base-image
 
 RUN add-apt-repository ppa:plt/racket
 RUN apt-get install -yqq racket
