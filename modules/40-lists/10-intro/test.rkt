@@ -4,9 +4,16 @@
 (require "index.rkt")
 
 (test-begin
-  (check-equal? '(0 0 0) (triple 0))
-  (check-equal? '("a" "a" "a") (triple "a"))
-  (check-equal? '((0 0 0)
-                  (0 0 0)
-                  (0 0 0))
-                (triple (triple 0))))
+  (check-equal?
+   (triple 0)
+   (list 0 0 0))
+
+  (check-equal?
+   (triple "a")
+   (list "a" "a" "a"))
+
+  (check-equal?
+   (triple (triple 0))
+   (list (list 0 0 0)
+         (list 0 0 0)
+         (list 0 0 0))))
