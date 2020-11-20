@@ -16,14 +16,14 @@ theory: |
   ```scheme
   ; define создаёт "объявление".
   (define lang "racket")
-  (displayln lang) ; => "racket"
+  (displayln lang) ; => racket
   ```
 
   Значением объявления может быть как нормальная форма (значение), так и составная:
 
   ```scheme
   (define result (+ 7 (- 4 6)))
-  (displayln result) ; 5
+  (displayln result) ; => 5
   ```
 
   define связывает имя (идентификатор) и значение следующего за ним выражения.
@@ -39,7 +39,7 @@ theory: |
 
   ```scheme
   (set! lang "scheme")
-  (displayln lang) ; => "scheme"
+  (displayln lang) ; => scheme
   ```
 
   В общем случае использовать `set!` не рекомендуется. Racket отлично поддерживает функциональную парадигму и всячески её поощряет. Код с переменными практически всегда легко заменяется на код с константами.
