@@ -1,11 +1,7 @@
 #lang racket
 
-(require (only-in rackunit
-                  check-equal?
-                  test-begin
-                  ))
+(require (only-in rackunit check-equal? test-begin))
 (require "index.rkt")
 
 (test-begin
-  (check-equal? "iphone" telephone)
-  )
+  (check-equal? telephone "iphone"))
