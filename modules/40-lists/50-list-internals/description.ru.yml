@@ -55,13 +55,13 @@ theory: |
   (pair? (cons 1 2))            ; #t
   (list? (cons 1 2))            ; #f - справа не список
 
-  (pair? (cons 1 nil))          ; #t
-  (list? (cons 1 nil))          ; #t - тут всё понятно
+  (pair? (cons 1 null))          ; #t
+  (list? (cons 1 null))          ; #t - тут всё понятно
 
   (pair? (cons 1 (cons 2 3)))   ; #t
   (list? (cons 1 (cons 2 3)))   ; #f - хвост не является списком!
 
-  (list? (cons 1 (cons 2 nil))) ; #t - всё хвосты являются списками
+  (list? (cons 1 (cons 2 null))) ; #t - всё хвосты являются списками
   ```
 
   ### car/cdr и first/rest
