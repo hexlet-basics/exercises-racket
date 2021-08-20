@@ -24,6 +24,9 @@
  (check-false (password-good? "LOVE"))
  (check-false (password-good? "123456"))
  (check-false (password-good? "U2"))
+ 
+ (check-false (password-good? "9876543210"))
+ (check-false (password-good? "Antananarivo"))
 
  (check-true (password-good? "1cat1dog"))
  (check-true (password-good? "R2D2andC3PO")))
