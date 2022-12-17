@@ -51,4 +51,7 @@ instructions: |
   - `'(11 21)` — это результат применения `add1` к `(list 10 20)`;
   - `'(#t #f)` — это результат применения `string?` к `(list "a" 0)`.
 
-tips: []
+tips:
+  - |
+    [map](https://docs.racket-lang.org/reference/pairs.html#%28def._%28%28lib._racket%2Fprivate%2Fmap..rkt%29._map%29%29)
+    [list](https://docs.racket-lang.org/reference/pairs.html#%28def._%28%28quote._~23~25kernel%29._list%29%29)
