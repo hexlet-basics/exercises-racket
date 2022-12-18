@@ -31,4 +31,7 @@ instructions: |
 
   > Заметьте, Racket умеет работать с дробями вроде `3/5` и `8/5`!
 
-tips: []
+tips:
+  - |
+    [filter](https://docs.racket-lang.org/reference/pairs.html#%28def._%28%28lib._racket%2Fprivate%2Flist..rkt%29._filter%29%29)
+    [number?](https://docs.racket-lang.org/reference/number-types.html#%28def._%28%28quote._~23~25kernel%29._number~3f%29%29)
