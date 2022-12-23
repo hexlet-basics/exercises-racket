@@ -9,5 +9,9 @@
   (check-equal? (skip 0 (list 1 2 3)) (list 1 2 3))
 
   (check-equal? (skip 1 (list 1 2 3)) (list 2 3))
+  
+  (check-equal? (skip 2 (list 1 2 3)) (list 3))
+  
+  (check-equal? (skip 3 (list 1 2 3)) (list))
 
   (check-equal? (skip 10 (list 1 2 3)) null))
