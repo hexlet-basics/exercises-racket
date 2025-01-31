@@ -39,7 +39,7 @@
 `string-set!` заменяет символ по указанному индексу на заданный:
 
 ```scheme
-(define s (make-copy "Cat")) ; изменяемая копия!
+(define s (string-copy "Cat")) ; изменяемая копия!
 (string-set! s 0 #\B)
 (string-set! s 1 #\o)
 (displayln s) ; => Bot
