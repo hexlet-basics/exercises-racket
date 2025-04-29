@@ -2,9 +2,6 @@
 name: Привет, Мир!
 tips:
   - >
-    [repl.it](https://repl.it/languages/scheme) - здесь вы можете
-    экспериментировать с кодом на Racket.
-  - >
     Используйте [готовый
     бойлерплейт](https://github.com/hexlet-boilerplates/sicp-racket) для
     прохождения SICP на Racket
