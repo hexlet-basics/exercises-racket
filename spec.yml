@@ -1,7 +1,7 @@
 ---
 
 language:
-  docker_image: "hexletbasics/exercises-racket"
+  docker_image: "ghcr.io/hexlet-basics/exercises-racket"
   extension: rkt
   exercise_filename: index.rkt
   exercise_test_filename: test.rkt
