@@ -1,6 +1,6 @@
 
 Напишите программу, которая выводит на экран фразу _winter is coming!_.
 
-<pre class='hexlet-basics-output'>
+```text
 winter is coming!
-</pre>
+```
